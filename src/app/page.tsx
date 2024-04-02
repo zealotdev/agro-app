@@ -8,9 +8,9 @@ export default function Home() {
     <main className="flex h-screen flex-col items-center justify-between">
       <div className="w-full lg:grid grid-rows-2 lg:grid-cols-2 min-h-screen">
         <div className="bg-[url('/img/garden.webp')] bg-cover bg-no-repeat bg-center transition-all delay-150 duration-300 ease-in-out flex h-screen items-center justify-center py-12">
-          <div className="mx-auto grid w-2/3 gap-6 bg-slate-50 bg-opacity-95 py-8 px-12 rounded raised">
+          <div className="mx-auto grid w-[90%] lg:w-2/3 gap-6 bg-slate-50 bg-opacity-95 py-8 px-12 rounded raised">
             <div className="grid gap-2 text-center">
-              <h1 className="text-2xl font-semibold text-slate-700">
+              <h1 className="text-lg lg:text-2xl font-semibold text-slate-700">
                 For Farmers
               </h1>
               <p className="text-balance text-muted-foreground">
@@ -52,9 +52,9 @@ export default function Home() {
           </div>
         </div>
         <div className="bg-muted hover:bg-white transition-all delay-150 duration-300 ease-in-out flex h-screen items-center justify-center py-12">
-          <div className="mx-auto grid w-2/3 gap-6 hover:border-2 py-8 px-12 rounded raised transition-all ease-in-out delay-100 duration-250">
+          <div className="mx-auto grid w-[90%] lg:w-2/3 gap-6 hover:border-2 py-4 px-6 lg:py-8 lg:px-12 rounded raised transition-all ease-in-out delay-100 duration-250">
             <div className="grid gap-2 text-center">
-              <h1 className="text-2xl font-semibold text-slate-700">
+              <h1 className="text-lg lg:text-2xl font-semibold text-slate-700">
                 For Agri-Business
               </h1>
               <p className="text-balance text-muted-foreground">
