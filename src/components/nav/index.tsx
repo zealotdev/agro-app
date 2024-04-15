@@ -23,7 +23,7 @@ export default function Nav() {
 // Mobile navigation
 export const NavMobile = () => {
   return (
-    <div className="fixed bottom-0 w-full">
+    <div className="fixed bg-slate-50 z-10 bottom-0 w-full">
       <div className="flex justify-evenly py-6 shadow-lg raised-lg text-blue-600">
         <Link href={'/dashboard'} className="hover:cursor-pointer">
           <FaHome size={25} />

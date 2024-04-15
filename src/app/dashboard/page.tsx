@@ -42,10 +42,10 @@ export default function Dashboard() {
   ];
 
   return (
-    <div className="container my-8 flex flex-col gap-8">
+    <div className="container mb-32 md:mb-0  my-8 flex flex-col gap-8">
       <div>
-        <div className="hidden md:flex gap-8 justify-between">
-          <Card className="h-full w-1/4">
+        <div className="flex flex-col md:flex-row gap-8 justify-between">
+          <Card className="hidden md:block h-full w-1/4">
             <CardHeader>
               <CardTitle>John Doe</CardTitle>
               <CardDescription>You have 3 unread messages.</CardDescription>
@@ -61,7 +61,7 @@ export default function Dashboard() {
           </Card>
 
           {/* Feed post */}
-          <div className="h-full w-2/4 flex flex-col gap-8">
+          <div className="h-full w-full md:w-2/4 flex flex-col gap-8">
             <Card>
               <CardHeader>
                 <CardTitle>Post Content:</CardTitle>
@@ -202,7 +202,7 @@ export default function Dashboard() {
               </Card>
             </div>
           </div>
-          <div className="w-1/4 flex flex-col gap-8">
+          <div className="hidden w-1/4 md:flex flex-col gap-8">
             <Card className="">
               <CardHeader>
                 <CardTitle className="">Connects.</CardTitle>
